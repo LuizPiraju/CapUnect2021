@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>uTask 2.0</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <a href="index.html">
+            <img class="logo" src="assets/BlueLogo.png">
+        </a>
+        <h1 class="titulo">uTask <em>2.0</em></h1>
+        <img class="engrenagem"src="assets/Engrenagem1.png" onClick="abrirModal()">
+    </header>
+
+    <!-- Adicionar Tarefas -->
+    <section class="adcTarefas">
+        <div class="addTarefa">
+            <input class="texto" type="text" placeholder="Adicionar Tarefa...">
+        </div>
+        <img class="btAdd" src="assets/Mais1.png" onclick="adcTarefa()">
+    </section>
+
+
+    <!-- Gerenciar Tarefas -->
+    <section class="genTarefas">
+        <div class="gTarefas">
+            <div class="coluna">
+              <h2>To do</h2>
+            </div>
+            <div class="coluna">
+              <h2>Doing</h2>
+            </div>
+            <div class="coluna">
+              <h2>Done</h2>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
